@@ -3,9 +3,9 @@ Hello and welcome to a new data science project, one that I'm excited to work on
 
 The field of computer vision is rapidly expanding and finds applications in a variety of fields, from medicine to the military. Today, we're going to apply it to weather and classify images of different types of weather. In this project, we aim to achieve the following objectives:
 
-1- Conduct an exploratory data analysis (EDA) to understand the dataset.
-2- Develop and evaluate a multi-class classification model to identify the weather condition in each image.
-3- Develop an API to serve the model, making it accessible for real-world applications.
+1. Conduct an exploratory data analysis (EDA) to understand the dataset.
+2. Develop and evaluate a multi-class classification model to identify the weather condition in each image.
+3. Develop an API to serve the model, making it accessible for real-world applications.
 ---
 ![201109651_tgazweather_t800](https://github.com/L98S/weather_image_classification/assets/110102931/7f3f785d-e2f1-4967-8f39-2a8f3a501d9f)
 
@@ -28,19 +28,19 @@ In this repository, you'll find:
 The project follows a systematic approach to data analysis, preprocessing, model training, and evaluation. Here is an overview of the key steps involved:
 
 1. Introduction
-2. Load The Data
-3. Splitting the dataset into train and test sets
-4.Exploratory Data Analysis
+3. Load The Data
+4. Splitting the dataset into train and test sets
+5. Exploratory Data Analysis
   * 4.1-Sample Images Visualization
   * 4.2-Image Size Distribution
   * 4.3-Color Distribution
-5.Data Preprocessing
+5. Data Preprocessing
   * 5.1-Image Resizing
   * 5.2-Image Scaling
   * 5.3-Label Encoding
-6.Modeling and Evaluation
+6. Modeling and Evaluation
   * 6.1-Simple CNN Model
   * 6.2-DenseNet
   * 6.3-Final model
-7.Conclusion
+7. Conclusion
 
