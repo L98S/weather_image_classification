@@ -1,0 +1,19 @@
+# Using Python 3.7 as the base image
+FROM python:3.7-slim
+
+# Setting /app as our work directory in the container
+WORKDIR /app
+
+# Copying everything from the current directory to /app in the container
+COPY . /app
+
+# Installing Flask using pip, and making sure it's from a trusted source
+RUN pip install --trusted-host pypi.python.org Flask
+
+# Opening up port 5000 so the outside world can communicate with our app
+EXPOSE 5000
+
+# Running our Flask app when the container starts
+CMD ["python", "app.py"]
+
+
